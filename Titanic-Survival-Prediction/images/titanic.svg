@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900">
+<defs>
+  <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#0b1f3a"/><stop offset="1" stop-color="#1d5f83"/>
+  </linearGradient>
+  <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#0c6b8e"/><stop offset="1" stop-color="#031b2b"/>
+  </linearGradient>
+</defs>
+<rect width="1600" height="520" fill="url(#sky)"/>
+<circle cx="1280" cy="150" r="75" fill="#d9f3ff" opacity=".8"/>
+<rect y="520" width="1600" height="380" fill="url(#sea)"/>
+<path d="M0 600 Q200 550 400 600 T800 600 T1200 600 T1600 600" fill="none" stroke="#8bd3e6" stroke-width="10" opacity=".5"/>
+<path d="M0 700 Q200 650 400 700 T800 700 T1200 700 T1600 700" fill="none" stroke="#8bd3e6" stroke-width="7" opacity=".35"/>
+<g transform="translate(500 330)">
+  <path d="M0 230 L500 230 L440 350 L80 350 Z" fill="#111827"/>
+  <rect x="100" y="125" width="290" height="105" rx="6" fill="#e8eef2"/>
+  <rect x="135" y="70" width="55" height="55" fill="#f3f6f8"/>
+  <rect x="220" y="70" width="55" height="55" fill="#f3f6f8"/>
+  <rect x="305" y="70" width="55" height="55" fill="#f3f6f8"/>
+  <rect x="150" y="15" width="28" height="55" fill="#2b2b2b"/>
+  <rect x="250" y="15" width="28" height="55" fill="#2b2b2b"/>
+  <rect x="350" y="15" width="28" height="55" fill="#2b2b2b"/>
+  <path d="M80 125 L430 125 L400 90 L110 90 Z" fill="#d6dde2"/>
+  <path d="M385 0 L390 90 L430 90 Z" fill="#f2f5f7"/>
+</g>
+<text x="800" y="820" text-anchor="middle" fill="white" opacity=".75"
+      font-family="Arial" font-size="34">TITANIC • SURVIVAL PREDICTION</text>
+</svg>
